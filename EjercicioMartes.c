@@ -12,9 +12,17 @@ for(int i=0; i<fil; i++){
         mat[i][j]= rand() % 101;
     }
 }
+printf("Su primera matriz es:\n");
 for(int i=0; i<fil; i++){
     for(int j=0; j<col; j++){
         printf("%d ",mat[i][j]);
+    }
+    printf("\n");
+}
+printf("Su matriz transpuesta es:\n");
+for(int i=0; i<fil; i++){
+    for(int j=0; j<col; j++){
+        printf("%d ",mat[j][i]);
     }
     printf("\n");
 }
